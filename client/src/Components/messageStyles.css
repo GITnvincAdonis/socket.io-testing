@@ -1,0 +1,50 @@
+.window-wrapper{
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-area{
+    border: 3px dashed black;
+    margin-bottom: 1em;
+    width: 30rem;
+    height: 20rem;
+    padding: 4rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.message{
+    margin: .1rem;
+    padding: 1rem ;
+    border-radius: .3rem;
+    width: 90%;
+    border: 1px solid;
+}
+.p-2{
+    padding: 1rem;
+}
+.p-1{
+    padding: .5rem;
+}
+
+.mx-1{
+    margin: 0 .5rem;
+}
+
+.mx-2{
+    margin: 0 1rem;
+}
+
+
+.my-1{
+    margin: .5rem 0 ;
+}
+
+.my-2{
+    margin: 1rem 0;
+}
